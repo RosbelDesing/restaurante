@@ -387,6 +387,18 @@ header a .start-btn{
     gap:6px;
 }
 
+@media (max-width:600px) {
+    .allergens-content{
+        padding:1em 0.4em;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color:var(--card);
+        gap:1em;
+    }
+}
+
 .allergens-item .allergens-type{
     width: 40px;
     border-radius:50%;
